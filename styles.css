@@ -1,0 +1,43 @@
+body {
+    margin: auto;
+    background-color: #e9b5aa;
+    padding: 10px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: #f0caca;
+    padding: 40px;
+}
+
+#log {
+    display: flex;
+}
+
+.new-input {
+    padding: 2px;
+    margin: auto;
+    width: 50px;
+}
+
+.new-button {
+    padding: 2px;
+    width: 50px;
+    margin: 5px;
+}
+
+.new-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
